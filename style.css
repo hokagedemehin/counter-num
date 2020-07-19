@@ -1,0 +1,48 @@
+body {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Averia Gruesa Libre', cursive;
+    /* font-family: 'Lobster', cursive; */
+}
+
+#value {
+    font-family: 'Acme', sans-serif;
+    font-size: 6rem;
+}
+
+.counter{
+
+    font-size: 4rem;
+}
+
+#row1 {
+
+    margin-left: 40vw;
+    margin-top: 30vh;
+
+}
+
+#row2 {
+    margin-left: 40vw;
+}
+
+@media (max-width: 767.98px) {
+    #row1 {
+        margin-left: 30vw;
+        margin-top: 20vh;
+    }
+
+    #row2 {
+        margin-left: 30vw;
+    }
+}
+@media (max-width: 575.98px) {
+    #row1 {
+        margin-left: 17vw;
+        margin-top: 10vh;
+    }
+
+    #row2 {
+        margin-left: 17vw;
+    }
+
+ }
